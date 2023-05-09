@@ -1,0 +1,74 @@
+*~
+*.iml
+*.log
+*.sw?
+*.swp
+*jar
+.DS_Store
+.cljs_rhino_repl
+.idea
+.nrepl*
+.nrepl-port
+.repl
+checkouts
+classes
+compiled
+datahub.log*
+node_modules
+out
+resources/public/js
+target
+.cpcache
+.shadow-cljs
+.clj-kondo/.cache
+
+.calva/
+.envrc
+.lsp/
+backup.edn
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+launcher/node_modules
+launcher/app/
+!launcher/app/index.html
+!launcher/app/preload.js
+!launcher/app/main.css
+!launcher/app/assets
+launcher/dist
+
+resources/public/assets/css/main.css
+
+datomic-pro/
+.keys
+
+.vscode/
+
+# Mac OS X
+.DS_Store
+._.*
+._*
+
+# Ignore local editor
+.project
+.settings
+.idea
+*.swp
+tags
+nbproject/*
+
+# Windows
+Thumbs.db
+
+# Debugging related
+npm-debug.log
+
+# Dependency packages files
+player/node_modules/
+
+# Output
+player/dist/
